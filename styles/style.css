@@ -62,7 +62,7 @@ body {
 .main {
     display: flex;
     align-items: center;
-    background-color: #e7e7e7;
+    background-color: #bdbdbd;
     min-height: 400px;
     border-radius: 20px;
     margin-top: 10px;
@@ -110,4 +110,19 @@ body {
 }
 .btn-area button:hover {
     border: 2px solid #373737 ;
+}
+
+/* Products Area Style  */
+.product-area {
+    background-color: #bdbdbd;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+}
+.p-cart {
+    width: 30%;
+    padding: 20px;
+}
+.cart-img img {
+    width: 100%;
 }
