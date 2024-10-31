@@ -17,17 +17,15 @@ body {
 /* logo area style  */
 .logo-area {
     display: flex;
+    align-items: center;
 }
 .logo img {
     width:50px;
 }
-.logo {
-    float: left;
-    padding-right: 10px;
-}
 .l-title h3 {
     color: beige;
     font-size: 20px;
+    margin-left:10px ;
 }
 .highlight-cl {
     color: #F4D35E;
@@ -48,14 +46,16 @@ body {
 .menu ul li a:hover {
     color: #F4D35E;
 }
-.active {
+.menu ul li:nth-last-child(1) {
+    color: #F4D35E;
     background-color: #2E2F5B;
     border-radius: 7px;
     padding: 10px 25px;
 }
-.active:hover {
+.menu ul li:nth-last-child(1):hover {
     background-color: #1d1e3a;
 }
+
 
 /* Main Section Style  */
 
@@ -63,9 +63,10 @@ body {
     display: flex;
     align-items: center;
     background-color: #e7e7e7;
-    height: 400px;
+    min-height: 400px;
     border-radius: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 .main-col {
     width: 50%;
@@ -73,4 +74,40 @@ body {
 }
 .main-col img {
     width: 300px;
+}
+.m-title h2 {
+    font-size: 40px;
+    margin: 0;
+}
+.m-title h3 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.icon-area ul {
+    padding: 0;
+}
+.icon-area ul li {
+    display: inline;
+    font-size: 30px;
+    margin: 10px;
+} 
+.icon-area ul li a {
+    color: #1d1e3a;
+}
+.icon-area ul li a:hover {
+    color: #F4D35E;
+}
+/* Main area button style  */
+
+.btn-area button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #F4D35E;
+    color: #373737;
+    background-color: #e7e7e7;
+    font-weight: 700;  
+    margin-right: 10px ;
+}
+.btn-area button:hover {
+    border: 2px solid #373737 ;
 }

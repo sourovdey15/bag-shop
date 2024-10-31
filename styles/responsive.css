@@ -1,0 +1,37 @@
+@media screen and (max-width:572px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Menu area style  */
+    .menu ul li a {
+        display: block;
+        margin-top:10px ;
+    }
+    .menu ul li:nth-last-child(1) {
+        color: none;
+        background-color: none;
+        border-radius: 0;
+        padding: 0 0;
+    }
+    .menu ul li:nth-last-child(1):hover {
+        background-color: none;
+    }
+    /* Main Section Style  */
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-col {
+        width: 100%;
+        padding: 30px;
+    }
+    .m-Area-txt {
+        margin-bottom: 0px;
+    }
+    .m-title h3 {
+        margin-top: 30px;
+    
+ }
