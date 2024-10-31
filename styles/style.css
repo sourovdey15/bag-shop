@@ -78,10 +78,12 @@ body {
 .m-title h2 {
     font-size: 40px;
     margin: 0;
+    color: #FFFFFF;
 }
 .m-title h3 {
     font-size: 30px;
-    margin-top: 5px;
+    margin-top: 5px; 
+    color: #000000;
 }
 .icon-area ul {
     padding: 0;
@@ -97,9 +99,9 @@ body {
 .icon-area ul li a:hover {
     color: #F4D35E;
 }
-/* Main area button style  */
+/* Common button style  */
 
-.btn-area button {
+button {
     padding: 10px 20px;
     border-radius: 10px;
     border: 2px solid #F4D35E;
@@ -108,21 +110,57 @@ body {
     font-weight: 700;  
     margin-right: 10px ;
 }
-.btn-area button:hover {
+button:hover {
     border: 2px solid #373737 ;
 }
 
 /* Products Area Style  */
 .product-area {
-    background-color: #bdbdbd;
     margin-top: 40px;
-    border-radius: 20px;
-    display: flex;
+    display: flex; 
+    text-align: center;
 }
 .p-cart {
+    background-color: #bdbdbd;
     width: 30%;
     padding: 20px;
+    /* margin-right: 10px; */
+    margin: 5px;
+    border-radius: 20px;
 }
 .cart-img img {
     width: 100%;
+}
+.p-title-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-title-area h4 {
+    display: block;
+}
+.p-icon a {
+    color: #1d1e3a;
+    margin: 5px;
+}
+.p-icon a:hover {
+    color: #F4D35E;
+}
+/* Gallery Area Style  */
+.gallery {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.gallery-item {
+    border: 2px solid #1d1e3a;
+    border-radius: 20px;
+}
+.gallery-item img  {
+    width:100%;
+}
+.gallery-btn {
+    text-align: center;
+    margin-top: 40px;
 }
